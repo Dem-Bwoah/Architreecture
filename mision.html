@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+   
+  <title>Architreecture - Quiénes somos</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #f0fdf4;
+      color: #1b4332;
+    }
+
+    header {
+      background-color: #2d6a4f;
+      color: white;
+      padding: 2rem;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2.5rem;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      margin-top: 0.5rem;
+    }
+
+    .section {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1100px;
+      margin: 3rem auto;
+      background-color: #d8f3dc;
+      border-radius: 12px;
+      box-shadow: 0 6px 20px rgba(16,24,32,0.08);
+      overflow: hidden;
+    }
+
+    .section.reverse {
+      flex-direction: row-reverse;
+    }
+
+    .section img {
+      width: 100%;
+      max-width: 500px;
+      object-fit: cover;
+      height: auto;
+    }
+
+    .section .content {
+      flex: 1;
+      padding: 2rem;
+    }
+
+    .section .content h2 {
+      margin-top: 0;
+      color: #2d6a4f;
+      font-size: 1.8rem;
+    }
+
+    .section .content p {
+      line-height: 1.6;
+      text-align: justify;
+      margin-bottom: 1rem;
+    }
+
+    .stack {
+      display: flex;
+      gap: 12px;
+      margin-top: 18px;
+      flex-wrap: wrap;
+    }
+
+    .stack .item {
+      flex: 1;
+      background: #f7fbf7;
+      border-radius: 8px;
+      padding: 10px;
+      text-align: center;
+      font-size: 13px;
+      color: #6b6b6b;
+      border: 1px dashed rgba(18,33,26,0.03);
+      min-width: 120px;
+    }
+
+    footer {
+      background-color: #2d6a4f;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+    nav {
+      background-color: #40916c;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      padding: 1rem;
+    }
+
+    nav a {
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    @media (max-width: 800px) {
+      .section {
+        flex-direction: column;
+      }
+      .section.reverse {
+        flex-direction: column;
+      }
+      .section img {
+        max-width: 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Architreecture</h1>
+    <p>Arquitectura verde para un futuro sostenible</p>
+  </header>
+
+  <nav>
+    <a class="btn btn-success" href="file:///D:/DEMIAN/Documents/Proyecto%20inform%C3%A1tica/index.html" role="button">Inicio</a>
+    <a class="btn btn-success" href="file:///D:/DEMIAN/Documents/Proyecto%20inform%C3%A1tica/ODS.html" role="button">ODS</a>
+    <a class="btn btn-success" href="file:///D:/DEMIAN/Documents/Proyecto%20inform%C3%A1tica/productos.html" role="button">Productos</a>
+    <a class="btn btn-success" href="file:///D:/DEMIAN/Documents/Proyecto%20inform%C3%A1tica/financiaci%C3%B3n.html" role="button">Financiación</a>
+    <a class="btn btn-success" href="file:///D:/DEMIAN/Documents/Proyecto%20inform%C3%A1tica/construccion.html" role="button">Construcción</a>
+    <a class="btn btn-success" href="file:///D:/DEMIAN/Documents/Proyecto%20inform%C3%A1tica/contacto.html" role="button">Contáctanos</a>
+  </nav>
+
+  <section class="section">
+    <img src="https://cdn.forbes.com.mx/2019/10/sustentabilidad-edificio-verde-plantas.jpg" alt="Imagen quienes somos">
+    <div class="content">
+      <h2>¿Quiénes somos?</h2>
+      <p>Somos una empresa de financiamiento y creación de diseños de arquitectura verde, filosofía de diseño que busca hacer de las ciudades un espacio verde donde se fomente el cuidado del medio ambiente y la construcción de espacios para lograr un desarrollo sustentable y sostenible.</p>
+      <p>Se tiene la esperanza de reducir los desafíos actuales que presenta el medio ambiente dentro de las urbes más habitadas del planeta para que problemas a escala global puedan reducirse en gran cantidad.</p>
+      <div class="stack">
+        <div class="item"><strong>Enfoque</strong><br>Arquitectura verde</div>
+        <div class="item"><strong>Servicios</strong><br>Financiamiento; Diseño; Implementación</div>
+        <div class="item"><strong>Objetivo</strong><br>Ciudades sostenibles</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="section reverse">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHRVzk7mycxhQ4oV5fgLMyt3Ho8FHfNFdtrQ&s" alt="Imagen compromiso">
+    <div class="content">
+      <h2>Compromiso</h2>
+      <p><strong>Visión:</strong> Desarrollar una cultura de importancia y cuidado del medio ambiente y la inclusión de las personas para que puedan disfrutar de una vida digna y libre de preocupaciones por un lugar donde habitar y donde trabajar, al igual que fomentar la independencia económica.</p>
+      <p><strong>Misión:</strong> Que las personas de bajos recursos o de zonas marginadas tengan acceso a una vivienda sostenible y un lugar seguro, además de un empleo estable que les permita mejorar su calidad de vida.</p>
+    </div>
+  </section>
+
+  <footer>
+    <p>© 2025 Architreecture. Todos los derechos reservados.</p>
+  </footer>
+</body>
+</html>
